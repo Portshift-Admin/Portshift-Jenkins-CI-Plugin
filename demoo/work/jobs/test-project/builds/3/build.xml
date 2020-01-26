@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <io.jenkins.plugins.portshiftVulnerabilityScanner.PortshiftScannerAction plugin="demoo@1.0-SNAPSHOT">
+      <build class="build" reference="../../.."/>
+      <accessKey>dea14876-eabb-41f5-a897-68487e4fdb63</accessKey>
+      <secretKey>0p3hvMCgNXgxD9VlwtKKZKTB8Wp422SWjGfTUH6Rz5Y=</secretKey>
+      <imageName>postgres</imageName>
+      <imageTag>9.6.2</imageTag>
+    </io.jenkins.plugins.portshiftVulnerabilityScanner.PortshiftScannerAction>
+  </actions>
+  <queueId>28</queueId>
+  <timestamp>1580051096015</timestamp>
+  <startTime>1580051096024</startTime>
+  <result>SUCCESS</result>
+  <duration>18859</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/home/rafael/dev/git/jenkins_plugin/demoo/work/workspace/test-project</workspace>
+  <hudsonVersion>2.164.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

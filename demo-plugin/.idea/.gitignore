@@ -1,0 +1,6 @@
+# Default ignored files
+/workspace.xml
+demo-plugin/work/plugins/ace-editor/
+demo-plugin/work/jobs/test/builds/
+demo-plugin/target
+demo-plugin/.*.iml
