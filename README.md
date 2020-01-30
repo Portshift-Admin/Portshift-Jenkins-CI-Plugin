@@ -57,7 +57,7 @@ You can also see results of the scan as an HTML page. An artifact named "scanRes
 
 ## Build the plugin (instructions for Ubuntu)
 
-* If JDK 7 is not installed, install it
+* If JDK is not installed, install it
 ```
      sudo apt-get update
      sudo apt-get install openjdk-8-jdk
