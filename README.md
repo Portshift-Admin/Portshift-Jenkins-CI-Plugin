@@ -36,6 +36,7 @@ In Freestyle jobs add a build step to scan the image with Portshift, as part of 
 3. Enter the image name.
 4. enter the access key and secret key of your Portshift 'Service' user.
 5. enter the external ip of your Jenkins runner as 'scanner-ip'
+6. enter the url of the Portshift server (console.portshift.io in most cases)
 
 ### Pipeline jobs
 In Pipeline jobs, the build step to scan the image with Portshift is included in a pipeline script, as part of the job configuration.
